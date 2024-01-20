@@ -14,7 +14,7 @@ rpgsave-decode <input>
 
 > `rpgsave-decode` will automatically output to a `.json` file of the same name. **(indented for readability)**
 
-Releases can be found [here](https://github.com/gteditor99/rpgsave-decrpyt/releases).
+Releases can be found [here](https://github.com/gteditor99/rpgsave-decode/releases).
 
 ## Building
 
