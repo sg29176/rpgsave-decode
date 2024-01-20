@@ -1,0 +1,3967 @@
+{
+  "system": {
+    "_saveEnabled": true,
+    "_menuEnabled": true,
+    "_encounterEnabled": true,
+    "_formationEnabled": true,
+    "_battleCount": 0,
+    "_winCount": 0,
+    "_escapeCount": 0,
+    "_saveCount": 2,
+    "_versionId": 86404004,
+    "_framesOnSave": 2750,
+    "_bgmOnSave": {
+      "name": "",
+      "volume": 0,
+      "pitch": 0,
+      "@c": 3
+    },
+    "_bgsOnSave": {
+      "name": "",
+      "volume": 0,
+      "pitch": 0,
+      "@c": 4
+    },
+    "_windowTone": null,
+    "_battleBgm": null,
+    "_victoryMe": null,
+    "_defeatMe": null,
+    "_savedBgm": null,
+    "_walkingBgm": null,
+    "_wordWrap": false,
+    "_fastForward": true,
+    "_msgFontName": "GameFont",
+    "_msgFontSize": 28,
+    "_msgFontOutline": 4,
+    "vnChoices": true,
+    "_savedEventLocations": {
+      "@c": 5
+    },
+    "_secondsPlayed": 19.36666666666685,
+    "@c": 2,
+    "@": "Game_System"
+  },
+  "screen": {
+    "_brightness": 0,
+    "_fadeOutDuration": 0,
+    "_fadeInDuration": 0,
+    "_tone": {
+      "@c": 7,
+      "@a": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "_toneTarget": {
+      "@c": 8,
+      "@a": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "_toneDuration": 0,
+    "_flashColor": {
+      "@c": 9,
+      "@a": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "_flashDuration": 0,
+    "_shakePower": 0,
+    "_shakeSpeed": 0,
+    "_shakeDuration": 0,
+    "_shakeDirection": 1,
+    "_shake": 0,
+    "_zoomX": 640,
+    "_zoomY": 360,
+    "_zoomScale": 1,
+    "_zoomScaleTarget": 1,
+    "_zoomDuration": 0,
+    "_weatherType": "none",
+    "_weatherPower": 0,
+    "_weatherPowerTarget": 0,
+    "_weatherDuration": 0,
+    "_pictures": {
+      "@c": 10,
+      "@a": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "_playerRegionId": 0,
+    "_playerZoomInfo": null,
+    "_completeZoomIn": 1,
+    "_zoomXTarget": 640,
+    "_zoomYTarget": 360,
+    "_zoomXSpeed": 0,
+    "_zoomYSpeed": 0,
+    "focusEvent": 0,
+    "@c": 6,
+    "@": "Game_Screen"
+  },
+  "timer": {
+    "_frames": 0,
+    "_working": false,
+    "@c": 11,
+    "@": "Game_Timer"
+  },
+  "switches": {
+    "_data": {
+      "@c": 13,
+      "@a": [
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    "@c": 12,
+    "@": "Game_Switches"
+  },
+  "variables": {
+    "_data": {
+      "@c": 15,
+      "@a": []
+    },
+    "@c": 14,
+    "@": "Game_Variables"
+  },
+  "selfSwitches": {
+    "_data": {
+      "@c": 17
+    },
+    "@c": 16,
+    "@": "Game_SelfSwitches"
+  },
+  "actors": {
+    "_data": {
+      "@c": 19,
+      "@a": [
+        null,
+        {
+          "_hp": 450,
+          "_mp": 90,
+          "_tp": 0,
+          "_hidden": false,
+          "_paramPlus": {
+            "@c": 21,
+            "@a": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "_states": {
+            "@c": 22,
+            "@a": []
+          },
+          "_stateTurns": {
+            "@c": 23
+          },
+          "_stateSteps": {
+            "@c": 24
+          },
+          "_buffs": {
+            "@c": 25,
+            "@a": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "_buffTurns": {
+            "@c": 26,
+            "@a": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "_actions": {
+            "@c": 27,
+            "@a": []
+          },
+          "_speed": 0,
+          "_result": {
+            "used": false,
+            "missed": false,
+            "evaded": false,
+            "physical": false,
+            "drain": false,
+            "critical": false,
+            "success": false,
+            "hpAffected": false,
+            "hpDamage": 0,
+            "mpDamage": 0,
+            "tpDamage": 0,
+            "addedStates": {
+              "@c": 29,
+              "@a": []
+            },
+            "removedStates": {
+              "@c": 30,
+              "@a": []
+            },
+            "addedBuffs": {
+              "@c": 31,
+              "@a": []
+            },
+            "addedDebuffs": {
+              "@c": 32,
+              "@a": []
+            },
+            "removedBuffs": {
+              "@c": 33,
+              "@a": []
+            },
+            "@c": 28,
+            "@": "Game_ActionResult"
+          },
+          "_actionState": "",
+          "_lastTargetIndex": 0,
+          "_animations": {
+            "@c": 34,
+            "@a": []
+          },
+          "_damagePopup": false,
+          "_effectType": null,
+          "_motionType": null,
+          "_weaponImageId": 0,
+          "_motionRefresh": false,
+          "_selected": false,
+          "_actorId": 1,
+          "_name": "Ashley",
+          "_nickname": "",
+          "_classId": 1,
+          "_level": 1,
+          "_characterName": "Actor1",
+          "_characterIndex": 0,
+          "_faceName": "",
+          "_faceIndex": 5,
+          "_battlerName": "Actor1_1",
+          "_exp": {
+            "1": 0,
+            "@c": 35
+          },
+          "_skills": {
+            "@c": 36,
+            "@a": []
+          },
+          "_equips": {
+            "@c": 37,
+            "@a": [
+              {
+                "_dataClass": "",
+                "_itemId": 0,
+                "@c": 38,
+                "@": "Game_Item"
+              }
+            ]
+          },
+          "_actionInputIndex": 0,
+          "_lastMenuSkill": {
+            "_dataClass": "",
+            "_itemId": 0,
+            "@c": 39,
+            "@": "Game_Item"
+          },
+          "_lastBattleSkill": {
+            "_dataClass": "",
+            "_itemId": 0,
+            "@c": 40,
+            "@": "Game_Item"
+          },
+          "_lastCommandSymbol": "",
+          "_profile": "",
+          "@c": 20,
+          "@": "Game_Actor"
+        },
+        {
+          "_hp": 450,
+          "_mp": 90,
+          "_tp": 0,
+          "_hidden": false,
+          "_paramPlus": {
+            "@c": 42,
+            "@a": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "_states": {
+            "@c": 43,
+            "@a": []
+          },
+          "_stateTurns": {
+            "@c": 44
+          },
+          "_stateSteps": {
+            "@c": 45
+          },
+          "_buffs": {
+            "@c": 46,
+            "@a": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "_buffTurns": {
+            "@c": 47,
+            "@a": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "_actions": {
+            "@c": 48,
+            "@a": []
+          },
+          "_speed": 0,
+          "_result": {
+            "used": false,
+            "missed": false,
+            "evaded": false,
+            "physical": false,
+            "drain": false,
+            "critical": false,
+            "success": false,
+            "hpAffected": false,
+            "hpDamage": 0,
+            "mpDamage": 0,
+            "tpDamage": 0,
+            "addedStates": {
+              "@c": 50,
+              "@a": []
+            },
+            "removedStates": {
+              "@c": 51,
+              "@a": []
+            },
+            "addedBuffs": {
+              "@c": 52,
+              "@a": []
+            },
+            "addedDebuffs": {
+              "@c": 53,
+              "@a": []
+            },
+            "removedBuffs": {
+              "@c": 54,
+              "@a": []
+            },
+            "@c": 49,
+            "@": "Game_ActionResult"
+          },
+          "_actionState": "",
+          "_lastTargetIndex": 0,
+          "_animations": {
+            "@c": 55,
+            "@a": []
+          },
+          "_damagePopup": false,
+          "_effectType": null,
+          "_motionType": null,
+          "_weaponImageId": 0,
+          "_motionRefresh": false,
+          "_selected": false,
+          "_actorId": 2,
+          "_name": "Andrew",
+          "_nickname": "",
+          "_classId": 1,
+          "_level": 1,
+          "_characterName": "Actor1",
+          "_characterIndex": 1,
+          "_faceName": "",
+          "_faceIndex": 0,
+          "_battlerName": "",
+          "_exp": {
+            "1": 0,
+            "@c": 56
+          },
+          "_skills": {
+            "@c": 57,
+            "@a": []
+          },
+          "_equips": {
+            "@c": 58,
+            "@a": [
+              {
+                "_dataClass": "weapon",
+                "_itemId": 0,
+                "@c": 59,
+                "@": "Game_Item"
+              }
+            ]
+          },
+          "_actionInputIndex": 0,
+          "_lastMenuSkill": {
+            "_dataClass": "",
+            "_itemId": 0,
+            "@c": 60,
+            "@": "Game_Item"
+          },
+          "_lastBattleSkill": {
+            "_dataClass": "",
+            "_itemId": 0,
+            "@c": 61,
+            "@": "Game_Item"
+          },
+          "_lastCommandSymbol": "",
+          "_profile": "",
+          "@c": 41,
+          "@": "Game_Actor"
+        }
+      ]
+    },
+    "@c": 18,
+    "@": "Game_Actors"
+  },
+  "party": {
+    "_inBattle": false,
+    "_gold": 0,
+    "_steps": 0,
+    "_lastItem": {
+      "_dataClass": "",
+      "_itemId": 0,
+      "@c": 63,
+      "@": "Game_Item"
+    },
+    "_menuActorId": 0,
+    "_targetActorId": 0,
+    "_actors": {
+      "@c": 64,
+      "@a": [
+        1
+      ]
+    },
+    "_items": {
+      "@c": 65
+    },
+    "_weapons": {
+      "@c": 66
+    },
+    "_armors": {
+      "@c": 67
+    },
+    "@c": 62,
+    "@": "Game_Party"
+  },
+  "map": {
+    "_interpreter": {
+      "_depth": 0,
+      "_mapId": 1,
+      "_eventId": 2,
+      "_list": {
+        "@c": 70,
+        "@a": [
+          {
+            "code": 121,
+            "indent": 0,
+            "parameters": {
+              "@c": 72,
+              "@a": [
+                1,
+                1,
+                1
+              ]
+            },
+            "@c": 71
+          },
+          {
+            "code": 231,
+            "indent": 0,
+            "parameters": {
+              "@c": 74,
+              "@a": [
+                1,
+                "keys",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            "@c": 73
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 76,
+              "@a": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0,
+                30,
+                true
+              ]
+            },
+            "@c": 75
+          },
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": {
+              "@c": 78,
+              "@a": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            "@c": 77
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": {
+              "@c": 80,
+              "@a": [
+                " "
+              ]
+            },
+            "@c": 79
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 82,
+              "@a": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0,
+                30,
+                true
+              ]
+            },
+            "@c": 81
+          },
+          {
+            "code": 235,
+            "indent": 0,
+            "parameters": {
+              "@c": 84,
+              "@a": [
+                1
+              ]
+            },
+            "@c": 83
+          },
+          {
+            "code": 231,
+            "indent": 0,
+            "parameters": {
+              "@c": 86,
+              "@a": [
+                1,
+                "ch1",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            "@c": 85
+          },
+          {
+            "code": 249,
+            "indent": 0,
+            "parameters": {
+              "@c": 88,
+              "@a": [
+                {
+                  "name": "title_sting",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0,
+                  "@c": 89
+                }
+              ]
+            },
+            "@c": 87
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 91,
+              "@a": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0,
+                40,
+                true
+              ]
+            },
+            "@c": 90
+          },
+          {
+            "code": 230,
+            "indent": 0,
+            "parameters": {
+              "@c": 93,
+              "@a": [
+                120
+              ]
+            },
+            "@c": 92
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 95,
+              "@a": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0,
+                40,
+                true
+              ]
+            },
+            "@c": 94
+          },
+          {
+            "code": 235,
+            "indent": 0,
+            "parameters": {
+              "@c": 97,
+              "@a": [
+                1
+              ]
+            },
+            "@c": 96
+          },
+          {
+            "code": 241,
+            "indent": 0,
+            "parameters": {
+              "@c": 99,
+              "@a": [
+                {
+                  "name": "jealous_doll",
+                  "volume": 85,
+                  "pitch": 100,
+                  "pan": 0,
+                  "@c": 100
+                }
+              ]
+            },
+            "@c": 98
+          },
+          {
+            "code": 231,
+            "indent": 0,
+            "parameters": {
+              "@c": 102,
+              "@a": [
+                2,
+                "op_a",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            "@c": 101
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 104,
+              "@a": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0,
+                30,
+                true
+              ]
+            },
+            "@c": 103
+          },
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": {
+              "@c": 106,
+              "@a": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            "@c": 105
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": {
+              "@c": 108,
+              "@a": [
+                "\\c[1]\\n(label)[kJ8dGf8G](lines)[8WvJMNT8]"
+              ]
+            },
+            "@c": 107
+          },
+          {
+            "code": 231,
+            "indent": 0,
+            "parameters": {
+              "@c": 110,
+              "@a": [
+                3,
+                "op_b",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            "@c": 109
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 112,
+              "@a": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0,
+                25,
+                true
+              ]
+            },
+            "@c": 111
+          },
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": {
+              "@c": 114,
+              "@a": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            "@c": 113
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": {
+              "@c": 116,
+              "@a": [
+                "\\n(label)[hpCv7MK8]\\c[2](lines)[GxFfxGPY]"
+              ]
+            },
+            "@c": 115
+          },
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": {
+              "@c": 118,
+              "@a": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            "@c": 117
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": {
+              "@c": 120,
+              "@a": [
+                "\\n(label)[hpCv7MK8]\\c[2](lines)[CpHv41gw]"
+              ]
+            },
+            "@c": 119
+          },
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": {
+              "@c": 122,
+              "@a": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            "@c": 121
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": {
+              "@c": 124,
+              "@a": [
+                "\\n(label)[kJ8dGf8G]\\c[1](lines)[HpxWqgxy]"
+              ]
+            },
+            "@c": 123
+          },
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": {
+              "@c": 126,
+              "@a": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            "@c": 125
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": {
+              "@c": 128,
+              "@a": [
+                "\\n(label)[hpCv7MK8]\\c[2](lines)[K53FBfd9]"
+              ]
+            },
+            "@c": 127
+          },
+          {
+            "code": 231,
+            "indent": 0,
+            "parameters": {
+              "@c": 130,
+              "@a": [
+                4,
+                "black",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            "@c": 129
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 132,
+              "@a": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0,
+                30,
+                true
+              ]
+            },
+            "@c": 131
+          },
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": {
+              "@c": 134,
+              "@a": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            "@c": 133
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": {
+              "@c": 136,
+              "@a": [
+                "\\n(label)[kJ8dGf8G]\\c[1](lines)[yhPKLvz5]"
+              ]
+            },
+            "@c": 135
+          },
+          {
+            "code": 235,
+            "indent": 0,
+            "parameters": {
+              "@c": 138,
+              "@a": [
+                3
+              ]
+            },
+            "@c": 137
+          },
+          {
+            "code": 235,
+            "indent": 0,
+            "parameters": {
+              "@c": 140,
+              "@a": [
+                2
+              ]
+            },
+            "@c": 139
+          },
+          {
+            "code": 235,
+            "indent": 0,
+            "parameters": {
+              "@c": 142,
+              "@a": [
+                4
+              ]
+            },
+            "@c": 141
+          },
+          {
+            "code": 242,
+            "indent": 0,
+            "parameters": {
+              "@c": 144,
+              "@a": [
+                1
+              ]
+            },
+            "@c": 143
+          },
+          {
+            "code": 250,
+            "indent": 0,
+            "parameters": {
+              "@c": 146,
+              "@a": [
+                {
+                  "name": "vinyl",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0,
+                  "@c": 147
+                }
+              ]
+            },
+            "@c": 145
+          },
+          {
+            "code": 230,
+            "indent": 0,
+            "parameters": {
+              "@c": 149,
+              "@a": [
+                30
+              ]
+            },
+            "@c": 148
+          },
+          {
+            "code": 231,
+            "indent": 0,
+            "parameters": {
+              "@c": 151,
+              "@a": [
+                2,
+                "wake_1a",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            "@c": 150
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 153,
+              "@a": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0,
+                40,
+                true
+              ]
+            },
+            "@c": 152
+          },
+          {
+            "code": 230,
+            "indent": 0,
+            "parameters": {
+              "@c": 155,
+              "@a": [
+                40
+              ]
+            },
+            "@c": 154
+          },
+          {
+            "code": 231,
+            "indent": 0,
+            "parameters": {
+              "@c": 157,
+              "@a": [
+                3,
+                "wake_1b",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            "@c": 156
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 159,
+              "@a": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0,
+                30,
+                true
+              ]
+            },
+            "@c": 158
+          },
+          {
+            "code": 235,
+            "indent": 0,
+            "parameters": {
+              "@c": 161,
+              "@a": [
+                2
+              ]
+            },
+            "@c": 160
+          },
+          {
+            "code": 230,
+            "indent": 0,
+            "parameters": {
+              "@c": 163,
+              "@a": [
+                60
+              ]
+            },
+            "@c": 162
+          },
+          {
+            "code": 232,
+            "indent": 0,
+            "parameters": {
+              "@c": 165,
+              "@a": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0,
+                30,
+                true
+              ]
+            },
+            "@c": 164
+          },
+          {
+            "code": 221,
+            "indent": 0,
+            "parameters": {
+              "@c": 167,
+              "@a": []
+            },
+            "@c": 166
+          },
+          {
+            "code": 235,
+            "indent": 0,
+            "parameters": {
+              "@c": 169,
+              "@a": [
+                3
+              ]
+            },
+            "@c": 168
+          },
+          {
+            "code": 201,
+            "indent": 0,
+            "parameters": {
+              "@c": 171,
+              "@a": [
+                0,
+                3,
+                13,
+                9,
+                0,
+                0
+              ]
+            },
+            "@c": 170
+          },
+          {
+            "code": 211,
+            "indent": 0,
+            "parameters": {
+              "@c": 173,
+              "@a": [
+                1
+              ]
+            },
+            "@c": 172
+          },
+          {
+            "code": 123,
+            "indent": 0,
+            "parameters": {
+              "@c": 175,
+              "@a": [
+                "A",
+                0
+              ]
+            },
+            "@c": 174
+          },
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": {
+              "@c": 177,
+              "@a": []
+            },
+            "@c": 176
+          }
+        ]
+      },
+      "_index": 49,
+      "_waitCount": 0,
+      "_waitMode": "transfer",
+      "_comments": "",
+      "_character": null,
+      "_childInterpreter": null,
+      "_branch": {
+        "@c": 178
+      },
+      "_params": {
+        "@r": 171
+      },
+      "_indent": 0,
+      "_frameCount": 2693,
+      "_freezeChecker": 1,
+      "prevHeader": "\\n<Andy>\\c[1](lines)[yhPKLvz5]",
+      "@c": 69,
+      "@": "Game_Interpreter"
+    },
+    "_mapId": 3,
+    "_tilesetId": 1,
+    "_events": {
+      "@c": 179,
+      "@a": [
+        null,
+        {
+          "_x": 17,
+          "_y": 7,
+          "_realX": 17,
+          "_realY": 7,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 182,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 184,
+                    "@a": []
+                  },
+                  "@c": 183
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 181
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 4,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 1,
+          "_interpreter": {
+            "_depth": 0,
+            "_mapId": 0,
+            "_eventId": 0,
+            "_list": null,
+            "_index": 0,
+            "_waitCount": 0,
+            "_waitMode": "",
+            "_comments": "",
+            "_character": null,
+            "_childInterpreter": null,
+            "_branch": {
+              "@c": 186
+            },
+            "_params": {
+              "@c": 187,
+              "@a": []
+            },
+            "_indent": 0,
+            "_frameCount": 0,
+            "_freezeChecker": 0,
+            "@c": 185,
+            "@": "Game_Interpreter"
+          },
+          "@c": 180,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 15,
+          "_y": 10,
+          "_realX": 15,
+          "_realY": 10,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 190,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 192,
+                    "@a": []
+                  },
+                  "@c": 191
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 189
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 1,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 2,
+          "_interpreter": null,
+          "@c": 188,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 10,
+          "_y": 9,
+          "_realX": 10,
+          "_realY": 9,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 195,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 197,
+                    "@a": []
+                  },
+                  "@c": 196
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 194
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 3,
+          "_interpreter": null,
+          "@c": 193,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 15,
+          "_y": 2,
+          "_realX": 15,
+          "_realY": 2,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 200,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 202,
+                    "@a": []
+                  },
+                  "@c": 201
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 199
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 4,
+          "_interpreter": null,
+          "@c": 198,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 14,
+          "_y": 5,
+          "_realX": 14,
+          "_realY": 5,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 205,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 207,
+                    "@a": []
+                  },
+                  "@c": 206
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 204
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 5,
+          "_interpreter": null,
+          "@c": 203,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 9,
+          "_y": 5,
+          "_realX": 9,
+          "_realY": 5,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 210,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 212,
+                    "@a": []
+                  },
+                  "@c": 211
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 209
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 6,
+          "_interpreter": null,
+          "@c": 208,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 10,
+          "_y": 3,
+          "_realX": 10,
+          "_realY": 3,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 215,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 217,
+                    "@a": []
+                  },
+                  "@c": 216
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 214
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 7,
+          "_interpreter": null,
+          "@c": 213,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 9,
+          "_y": 4,
+          "_realX": 9,
+          "_realY": 4,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 220,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 222,
+                    "@a": []
+                  },
+                  "@c": 221
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 219
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 8,
+          "_interpreter": null,
+          "@c": 218,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 9,
+          "_y": 11,
+          "_realX": 9,
+          "_realY": 11,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 225,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 227,
+                    "@a": []
+                  },
+                  "@c": 226
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 224
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 9,
+          "_interpreter": null,
+          "@c": 223,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 15,
+          "_y": 3,
+          "_realX": 15,
+          "_realY": 3,
+          "_moveSpeed": 4,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": true,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": true,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": null,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": -1,
+          "_originalPattern": 1,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 10,
+          "_interpreter": null,
+          "@c": 228,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 8,
+          "_y": 6,
+          "_realX": 8,
+          "_realY": 6,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 231,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 233,
+                    "@a": []
+                  },
+                  "@c": 232
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 230
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 1,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 11,
+          "_interpreter": null,
+          "@c": 229,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 7,
+          "_y": 6,
+          "_realX": 7,
+          "_realY": 6,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 236,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 238,
+                    "@a": []
+                  },
+                  "@c": 237
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 235
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 1,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 12,
+          "_interpreter": null,
+          "@c": 234,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 16,
+          "_y": 10,
+          "_realX": 16,
+          "_realY": 10,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 241,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 243,
+                    "@a": []
+                  },
+                  "@c": 242
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 240
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 1,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 13,
+          "_interpreter": null,
+          "@c": 239,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 18,
+          "_y": 5,
+          "_realX": 18,
+          "_realY": 5,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 246,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 248,
+                    "@a": []
+                  },
+                  "@c": 247
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 245
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 1,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 14,
+          "_interpreter": null,
+          "@c": 244,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 19,
+          "_y": 5,
+          "_realX": 19,
+          "_realY": 5,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 251,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 253,
+                    "@a": []
+                  },
+                  "@c": 252
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 250
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 1,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 15,
+          "_interpreter": null,
+          "@c": 249,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 13,
+          "_y": 12,
+          "_realX": 13,
+          "_realY": 12,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 256,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 258,
+                    "@a": []
+                  },
+                  "@c": 257
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 255
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 16,
+          "_interpreter": null,
+          "@c": 254,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 13,
+          "_y": 13,
+          "_realX": 13,
+          "_realY": 13,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 261,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 263,
+                    "@a": []
+                  },
+                  "@c": 262
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 260
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 17,
+          "_interpreter": null,
+          "@c": 259,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 11,
+          "_y": 4,
+          "_realX": 11,
+          "_realY": 4,
+          "_moveSpeed": 4,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": true,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": true,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": null,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": -1,
+          "_originalPattern": 1,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 18,
+          "_interpreter": null,
+          "@c": 264,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 1,
+          "_y": 0,
+          "_realX": 1,
+          "_realY": 0,
+          "_moveSpeed": 4,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": true,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": true,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": null,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": -1,
+          "_originalPattern": 1,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 19,
+          "_interpreter": null,
+          "@c": 265,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 9,
+          "_y": 8,
+          "_realX": 9,
+          "_realY": 8,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 268,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 270,
+                    "@a": []
+                  },
+                  "@c": 269
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 267
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 1,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 20,
+          "_interpreter": null,
+          "@c": 266,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 3,
+          "_y": 0,
+          "_realX": 3,
+          "_realY": 0,
+          "_moveSpeed": 4,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": true,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": true,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": null,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": -1,
+          "_originalPattern": 1,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 21,
+          "_interpreter": null,
+          "@c": 271,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 10,
+          "_y": 6,
+          "_realX": 10,
+          "_realY": 6,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "!Other1",
+          "_characterIndex": 2,
+          "_isObjectCharacter": true,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 274,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 276,
+                    "@a": []
+                  },
+                  "@c": 275
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 273
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 22,
+          "_interpreter": null,
+          "@c": 272,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 14,
+          "_y": 7,
+          "_realX": 14,
+          "_realY": 7,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 279,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 281,
+                    "@a": []
+                  },
+                  "@c": 280
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 278
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 23,
+          "_interpreter": null,
+          "@c": 277,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 16,
+          "_y": 4,
+          "_realX": 16,
+          "_realY": 4,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "!Other1",
+          "_characterIndex": 2,
+          "_isObjectCharacter": true,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 284,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 286,
+                    "@a": []
+                  },
+                  "@c": 285
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 283
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 24,
+          "_interpreter": null,
+          "@c": 282,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 12,
+          "_y": 6,
+          "_realX": 12,
+          "_realY": 6,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 4,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "!Other1",
+          "_characterIndex": 2,
+          "_isObjectCharacter": true,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 289,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 291,
+                    "@a": []
+                  },
+                  "@c": 290
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 288
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 4,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 25,
+          "_interpreter": null,
+          "@c": 287,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 12,
+          "_y": 7,
+          "_realX": 12,
+          "_realY": 7,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 4,
+          "_pattern": 1,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "!Other1",
+          "_characterIndex": 2,
+          "_isObjectCharacter": true,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 294,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 296,
+                    "@a": []
+                  },
+                  "@c": 295
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 293
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 1,
+          "_originalDirection": 4,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 26,
+          "_interpreter": null,
+          "@c": 292,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 2,
+          "_y": 0,
+          "_realX": 2,
+          "_realY": 0,
+          "_moveSpeed": 4,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": true,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": true,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": null,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": -1,
+          "_originalPattern": 1,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 27,
+          "_interpreter": null,
+          "@c": 297,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 0,
+          "_y": 0,
+          "_realX": 0,
+          "_realY": 0,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 300,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 302,
+                    "@a": []
+                  },
+                  "@c": 301
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 299
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 3,
+          "_starting": true,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 28,
+          "_interpreter": null,
+          "@c": 298,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 11,
+          "_y": 10,
+          "_realX": 11,
+          "_realY": 10,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 305,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 307,
+                    "@a": []
+                  },
+                  "@c": 306
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 304
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 29,
+          "_interpreter": null,
+          "@c": 303,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 10,
+          "_y": 4,
+          "_realX": 10,
+          "_realY": 4,
+          "_moveSpeed": 4,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": true,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": true,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": null,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": -1,
+          "_originalPattern": 1,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 30,
+          "_interpreter": null,
+          "@c": 308,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 12,
+          "_y": 3,
+          "_realX": 12,
+          "_realY": 3,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 311,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 313,
+                    "@a": []
+                  },
+                  "@c": 312
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 310
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 31,
+          "_interpreter": null,
+          "@c": 309,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 14,
+          "_y": 3,
+          "_realX": 14,
+          "_realY": 3,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 316,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 318,
+                    "@a": []
+                  },
+                  "@c": 317
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 315
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 32,
+          "_interpreter": null,
+          "@c": 314,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 9,
+          "_y": 10,
+          "_realX": 9,
+          "_realY": 10,
+          "_moveSpeed": 3,
+          "_moveFrequency": 3,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 0,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": {
+            "list": {
+              "@c": 321,
+              "@a": [
+                {
+                  "code": 0,
+                  "parameters": {
+                    "@c": 323,
+                    "@a": []
+                  },
+                  "@c": 322
+                }
+              ]
+            },
+            "repeat": true,
+            "skippable": false,
+            "wait": false,
+            "@c": 320
+          },
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": 0,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": 0,
+          "_originalPattern": 0,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 33,
+          "_interpreter": null,
+          "@c": 319,
+          "@": "Game_Event"
+        },
+        {
+          "_x": 10,
+          "_y": 11,
+          "_realX": 10,
+          "_realY": 11,
+          "_moveSpeed": 4,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 2,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": true,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": true,
+          "_transparent": false,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 0,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_moveType": 0,
+          "_trigger": null,
+          "_starting": false,
+          "_erased": false,
+          "_pageIndex": -1,
+          "_originalPattern": 1,
+          "_originalDirection": 2,
+          "_prelockDirection": 0,
+          "_locked": false,
+          "_mapId": 3,
+          "_eventId": 34,
+          "_interpreter": null,
+          "@c": 324,
+          "@": "Game_Event"
+        }
+      ]
+    },
+    "_commonEvents": {
+      "@c": 325,
+      "@a": []
+    },
+    "_vehicles": {
+      "@c": 326,
+      "@a": [
+        {
+          "_x": 0,
+          "_y": 0,
+          "_realX": 0,
+          "_realY": 0,
+          "_moveSpeed": 4,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 4,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 0,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": true,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 1152,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_type": "boat",
+          "_mapId": 0,
+          "_altitude": 0,
+          "_driving": false,
+          "_bgm": null,
+          "@c": 327,
+          "@": "Game_Vehicle"
+        },
+        {
+          "_x": 0,
+          "_y": 0,
+          "_realX": 0,
+          "_realY": 0,
+          "_moveSpeed": 5,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 4,
+          "_pattern": 1,
+          "_priorityType": 1,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 1,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": true,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 1152,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_type": "ship",
+          "_mapId": 0,
+          "_altitude": 0,
+          "_driving": false,
+          "_bgm": null,
+          "@c": 328,
+          "@": "Game_Vehicle"
+        },
+        {
+          "_x": 0,
+          "_y": 0,
+          "_realX": 0,
+          "_realY": 0,
+          "_moveSpeed": 6,
+          "_moveFrequency": 6,
+          "_opacity": 255,
+          "_blendMode": 0,
+          "_direction": 4,
+          "_pattern": 1,
+          "_priorityType": 0,
+          "_tileId": 0,
+          "_characterName": "",
+          "_characterIndex": 3,
+          "_isObjectCharacter": null,
+          "_walkAnime": false,
+          "_stepAnime": false,
+          "_directionFix": false,
+          "_through": false,
+          "_transparent": true,
+          "_bushDepth": 0,
+          "_animationId": 0,
+          "_balloonId": 0,
+          "_animationPlaying": false,
+          "_balloonPlaying": false,
+          "_animationCount": 0,
+          "_stopCount": 1152,
+          "_jumpCount": 0,
+          "_jumpPeak": 0,
+          "_movementSuccess": true,
+          "_moveRouteForcing": false,
+          "_moveRoute": null,
+          "_moveRouteIndex": 0,
+          "_originalMoveRoute": null,
+          "_originalMoveRouteIndex": 0,
+          "_waitCount": 0,
+          "_type": "airship",
+          "_mapId": 0,
+          "_altitude": 0,
+          "_driving": false,
+          "_bgm": null,
+          "@c": 329,
+          "@": "Game_Vehicle"
+        }
+      ]
+    },
+    "_displayX": 0.16666666666666607,
+    "_displayY": 0,
+    "_nameDisplay": true,
+    "_scrollDirection": 2,
+    "_scrollRest": 0,
+    "_scrollSpeed": 4,
+    "_parallaxName": "",
+    "_parallaxZero": false,
+    "_parallaxLoopX": false,
+    "_parallaxLoopY": false,
+    "_parallaxSx": 0,
+    "_parallaxSy": 0,
+    "_parallaxX": 0.16666666666666607,
+    "_parallaxY": 0,
+    "_battleback1Name": null,
+    "_battleback2Name": null,
+    "_newDisplayX": 0,
+    "_newDisplayY": 0,
+    "_newParallaxX": 0,
+    "_newParallaxY": 0,
+    "_scrollDuration": 0,
+    "_displayXSpeed": 0,
+    "_displayYSpeed": 0,
+    "_parallaxXSpeed": 0,
+    "_parallaxYSpeed": 0,
+    "_needsRefresh": false,
+    "tileEvents": {
+      "@c": 330,
+      "@a": []
+    },
+    "@c": 68,
+    "@": "Game_Map"
+  },
+  "player": {
+    "_x": 13,
+    "_y": 9,
+    "_realX": 13,
+    "_realY": 9,
+    "_moveSpeed": 4,
+    "_moveFrequency": 6,
+    "_opacity": 255,
+    "_blendMode": 0,
+    "_direction": 2,
+    "_pattern": 1,
+    "_priorityType": 1,
+    "_tileId": 0,
+    "_characterName": "Actor1",
+    "_characterIndex": 0,
+    "_isObjectCharacter": null,
+    "_walkAnime": true,
+    "_stepAnime": false,
+    "_directionFix": false,
+    "_through": false,
+    "_transparent": true,
+    "_bushDepth": 0,
+    "_animationId": 0,
+    "_balloonId": 0,
+    "_animationPlaying": false,
+    "_balloonPlaying": false,
+    "_animationCount": 0,
+    "_stopCount": 0,
+    "_jumpCount": 0,
+    "_jumpPeak": 0,
+    "_movementSuccess": true,
+    "_moveRouteForcing": false,
+    "_moveRoute": null,
+    "_moveRouteIndex": 0,
+    "_originalMoveRoute": null,
+    "_originalMoveRouteIndex": 0,
+    "_waitCount": 0,
+    "_vehicleType": "walk",
+    "_vehicleGettingOn": false,
+    "_vehicleGettingOff": false,
+    "_dashing": false,
+    "_needsMapReload": false,
+    "_transferring": false,
+    "_newMapId": 0,
+    "_newX": 0,
+    "_newY": 0,
+    "_newDirection": 0,
+    "_fadeType": 0,
+    "_followers": {
+      "_visible": true,
+      "_gathering": false,
+      "_data": {
+        "@c": 333,
+        "@a": [
+          {
+            "_x": 13,
+            "_y": 9,
+            "_realX": 13,
+            "_realY": 9,
+            "_moveSpeed": 4.1,
+            "_moveFrequency": 6,
+            "_opacity": 255,
+            "_blendMode": 0,
+            "_direction": 2,
+            "_pattern": 1,
+            "_priorityType": 1,
+            "_tileId": 0,
+            "_characterName": "",
+            "_characterIndex": 0,
+            "_isObjectCharacter": null,
+            "_walkAnime": true,
+            "_stepAnime": false,
+            "_directionFix": false,
+            "_through": true,
+            "_transparent": true,
+            "_bushDepth": 0,
+            "_animationId": 0,
+            "_balloonId": 0,
+            "_animationPlaying": false,
+            "_balloonPlaying": false,
+            "_animationCount": 0,
+            "_stopCount": 0,
+            "_jumpCount": 0,
+            "_jumpPeak": 0,
+            "_movementSuccess": true,
+            "_moveRouteForcing": false,
+            "_moveRoute": null,
+            "_moveRouteIndex": 0,
+            "_originalMoveRoute": null,
+            "_originalMoveRouteIndex": 0,
+            "_waitCount": 0,
+            "_memberIndex": 1,
+            "@c": 334,
+            "@": "Game_Follower"
+          },
+          {
+            "_x": 13,
+            "_y": 9,
+            "_realX": 13,
+            "_realY": 9,
+            "_moveSpeed": 4.1,
+            "_moveFrequency": 6,
+            "_opacity": 255,
+            "_blendMode": 0,
+            "_direction": 2,
+            "_pattern": 1,
+            "_priorityType": 1,
+            "_tileId": 0,
+            "_characterName": "",
+            "_characterIndex": 0,
+            "_isObjectCharacter": null,
+            "_walkAnime": true,
+            "_stepAnime": false,
+            "_directionFix": false,
+            "_through": true,
+            "_transparent": true,
+            "_bushDepth": 0,
+            "_animationId": 0,
+            "_balloonId": 0,
+            "_animationPlaying": false,
+            "_balloonPlaying": false,
+            "_animationCount": 0,
+            "_stopCount": 0,
+            "_jumpCount": 0,
+            "_jumpPeak": 0,
+            "_movementSuccess": true,
+            "_moveRouteForcing": false,
+            "_moveRoute": null,
+            "_moveRouteIndex": 0,
+            "_originalMoveRoute": null,
+            "_originalMoveRouteIndex": 0,
+            "_waitCount": 0,
+            "_memberIndex": 2,
+            "@c": 335,
+            "@": "Game_Follower"
+          },
+          {
+            "_x": 13,
+            "_y": 9,
+            "_realX": 13,
+            "_realY": 9,
+            "_moveSpeed": 4.1,
+            "_moveFrequency": 6,
+            "_opacity": 255,
+            "_blendMode": 0,
+            "_direction": 2,
+            "_pattern": 1,
+            "_priorityType": 1,
+            "_tileId": 0,
+            "_characterName": "",
+            "_characterIndex": 0,
+            "_isObjectCharacter": null,
+            "_walkAnime": true,
+            "_stepAnime": false,
+            "_directionFix": false,
+            "_through": true,
+            "_transparent": true,
+            "_bushDepth": 0,
+            "_animationId": 0,
+            "_balloonId": 0,
+            "_animationPlaying": false,
+            "_balloonPlaying": false,
+            "_animationCount": 0,
+            "_stopCount": 0,
+            "_jumpCount": 0,
+            "_jumpPeak": 0,
+            "_movementSuccess": true,
+            "_moveRouteForcing": false,
+            "_moveRoute": null,
+            "_moveRouteIndex": 0,
+            "_originalMoveRoute": null,
+            "_originalMoveRouteIndex": 0,
+            "_waitCount": 0,
+            "_memberIndex": 3,
+            "@c": 336,
+            "@": "Game_Follower"
+          }
+        ]
+      },
+      "@c": 332,
+      "@": "Game_Followers"
+    },
+    "_encounterCount": 29,
+    "@c": 331,
+    "@": "Game_Player"
+  },
+  "format": "Format 1.0",
+  "invStorage": {
+    "ashley": {
+      "@c": 338
+    },
+    "@c": 337
+  },
+  "invCurrent": "ashley",
+  "@c": 1
+}

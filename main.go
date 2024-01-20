@@ -90,8 +90,8 @@ func main() {
 	// write to file
 	logger.Info("writing to file")
 	fileName := filepath.Base(filePath)
-	fileName += ".json"
 	fileName = strings.TrimSuffix(fileName, filepath.Ext(fileName))
+	fileName += ".json"
 	logger.Print("file name: " + fileName)
 
 	if _, err := os.Stat(fileName); err == nil {
