@@ -23,7 +23,7 @@ Releases can be found [here](https://github.com/gteditor99/rpgsave-decode/releas
 Clone the repository:
 
 ```bash
-git clone https://github.com/gteditor99/rpgsave-decrpyt.git
+git clone https://github.com/gteditor99/rpgsave-decode.git
 ```
 
 Build the project:
