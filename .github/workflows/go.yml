@@ -1,15 +1,12 @@
-
+# .github/workflows/release.yml
 name: goreleaser
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
-    branches:
-      - main
-  release:
-    types: [created]
+  push:
+    # run only against tags
+    tags:
+      - "*"
 
 permissions:
   contents: write
@@ -20,18 +17,20 @@ jobs:
   goreleaser:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - run: git fetch --force --tags
-      - uses: actions/setup-go@v3
+      - name: Set up Go
+        uses: actions/setup-go@v4
         with:
-          go-version: '>=1.19.3'
-          cache: true
-      - uses: goreleaser/goreleaser-action@v2
+          go-version: stable
+          
+      - name: Run GoReleaser
+        uses: goreleaser/goreleaser-action@v5
         with:
           distribution: goreleaser
           version: latest
-          args: release --rm-dist
+          args: release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
