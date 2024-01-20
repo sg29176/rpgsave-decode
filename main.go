@@ -18,6 +18,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -88,9 +89,11 @@ func main() {
 	decompressedBytes, err := lzstring.DecompressFromBase64(string(fileBytes))
 	// write to file
 	logger.Info("writing to file")
-	fileName := strings.Split(filePath, ".")[0]
+	fileName := filepath.Base(filePath)
 	fileName += ".json"
+	fileName = strings.TrimSuffix(fileName, filepath.Ext(fileName))
 	logger.Print("file name: " + fileName)
+
 	if _, err := os.Stat(fileName); err == nil {
 		logger.Warn("file", fileName, " exits, overwrite? (y/n)")
 		overwrite, _ := bufio.NewReader(os.Stdin).ReadString('\n')
